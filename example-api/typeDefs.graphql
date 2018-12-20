@@ -1,0 +1,7 @@
+scalar DateTime
+
+type Comment {
+    id: ID!
+    message: String!
+    created: DateTime!
+}
