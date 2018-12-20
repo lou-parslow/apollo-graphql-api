@@ -5,3 +5,7 @@ type Comment {
     message: String!
     created: DateTime!
 }
+
+type Query{
+    totalComments: Int!
+}

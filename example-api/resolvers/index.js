@@ -4,10 +4,7 @@ const Subscription = require('./Subscription')
 const Type = require('./Type')
 
 const resolvers = {
-  Query,
-  Mutation,
-  Subscription,
-  ...Type
+  Query
 }
 
 module.exports = resolvers
